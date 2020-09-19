@@ -50,16 +50,19 @@
     <Compile Include="Form\frmLogin.Designer.cs">
       <DependentUpon>frmLogin.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form\frmDel.cs">
+    <Compile Include="Form\frmScr.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form\frmDel.Designer.cs">
-      <DependentUpon>frmDel.cs</DependentUpon>
+    <Compile Include="Form\frmScr.Designer.cs">
+      <DependentUpon>frmScr.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Form\frmLogin.resx">
       <DependentUpon>frmLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\frmScr.resx">
+      <DependentUpon>frmScr.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
