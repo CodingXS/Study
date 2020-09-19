@@ -9,14 +9,14 @@ using System.Windows.Forms;
 
 namespace Study
 {
-    public partial class frmDel : Form
+    public partial class frmScr : Form
     {
-        public frmDel()
+        public frmScr()
         {
             InitializeComponent();
         }
-        int lblX = 8;
-        int lblY = 10;
+        int lblX = 20;
+        int lblY = 25;
 
         private void Timer1_Tick(object sender, EventArgs e)
         {
