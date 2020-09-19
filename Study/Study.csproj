@@ -82,7 +82,9 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Dll\" />
-    <Folder Include="Img\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Img\e3f24a86665134939b9b47b0040fba75.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
