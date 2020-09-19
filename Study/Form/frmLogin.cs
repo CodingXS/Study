@@ -15,5 +15,10 @@ namespace Study
         {
             InitializeComponent();
         }
+
+        private void frmLogin_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

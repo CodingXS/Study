@@ -76,6 +76,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Dll\" />
+    <Folder Include="Img\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
