@@ -71,6 +71,12 @@
     <Compile Include="Form\frmScr.Designer.cs">
       <DependentUpon>frmScr.cs</DependentUpon>
     </Compile>
+    <Compile Include="Form\frmJiaoGu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\frmJiaoGu.Designer.cs">
+      <DependentUpon>frmJiaoGu.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Form\frmAuto.resx">
@@ -78,6 +84,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Form\frmScr.resx">
       <DependentUpon>frmScr.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\frmJiaoGu.resx">
+      <DependentUpon>frmJiaoGu.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
