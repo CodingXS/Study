@@ -15,8 +15,7 @@ namespace Study
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            //Application.Run(new frmLogin());
-            Application.Run(new frmScr());
+            Application.Run(new frmAuto());
         }
     }
 }

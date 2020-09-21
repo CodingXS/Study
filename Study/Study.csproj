@@ -59,11 +59,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Form\frmLogin.cs">
+    <Compile Include="Form\frmAuto.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form\frmLogin.Designer.cs">
-      <DependentUpon>frmLogin.cs</DependentUpon>
+    <Compile Include="Form\frmAuto.Designer.cs">
+      <DependentUpon>frmAuto.cs</DependentUpon>
     </Compile>
     <Compile Include="Form\frmScr.cs">
       <SubType>Form</SubType>
@@ -73,8 +73,8 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Form\frmLogin.resx">
-      <DependentUpon>frmLogin.cs</DependentUpon>
+    <EmbeddedResource Include="Form\frmAuto.resx">
+      <DependentUpon>frmAuto.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form\frmScr.resx">
       <DependentUpon>frmScr.cs</DependentUpon>
